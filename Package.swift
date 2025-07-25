@@ -13,7 +13,7 @@ let package = Package(
                     
         .library(
             name: "MobilistenCalls",
-            targets: ["AppBridge", "AVCallKit", "AVCommonsCore", "AVCommonsVoIP", "Floatkit", "iRTCPMeeting", "MeetingsCore", "MobilistenCalls", "Starscream", "TraceKit", "UIPullDownMenuKit", "WebRTC", "WebRTCExtras", "WMSPackage", "ZIPFoundation"]),
+            targets: ["AppBridge", "AVCallKit", "AVCommonsCore", "AVCommonsVoIP", "Floatkit", "iRTCPMeeting", "MeetingsCore", "MobilistenCalls", "Starscream", "TraceKit", "UIPullDownMenuKit", "WebRTC", "WebRTCExtras", "WMSPackage", "MobilistenZipFoundation"]),
     ],
     targets: [
         .binaryTarget(
@@ -102,7 +102,7 @@ let package = Package(
             checksum: "2e5cadb1ad9d8c4ac1dbb11baff8dfdc10ab249f8854a061c3d41a6397bd64f1"
         ),
         .binaryTarget(
-            name: "ZIPFoundation",
+            name: "MobilistenZipFoundation",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/ZIPFoundation.zip",
             checksum: "97c1f5f7404553f3b00fa22ecb8bcf21ba49f5623880059246e9af0ae83b1976"
         ),
