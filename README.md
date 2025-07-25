@@ -9,7 +9,7 @@ Connect with your customers at every step of their journey. With Mobilisten, off
 ## Quick Start Guide 💨
 
 1. Navigate to the **Swift Packages** tab under project settings.
-2. Add `https://github.com/zoho/SalesIQ-Mobilisten-iOS-SP` as the package repository and click on **Next**.
+2. Add `https://github.com/htijani/SalesIQ-Mobilisten-iOS-SP` as the package repository and click on **Next**.
 3. Choose the latest release of the package under package options and click on **Next**.
 4. Select Mobilisten and MobilistenCalls(Only if using audio call support) under Package Products and click on **Finish**
 5. The installation is now complete 🎉 🥳 .
